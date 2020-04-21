@@ -13,8 +13,6 @@ matrix:
     - php: 7.3
     env: LARAVEL_VERSION=~7.0  TESTBENCH_VERSION=~5.0  PHPUNIT_VERSION=~8.0
 
-sudo: false
-
 before_install:
   # Disable XDebug to speed up Composer.
   - cp $HOME/.phpenv/versions/$(phpenv global)/etc/conf.d/xdebug.ini /tmp
