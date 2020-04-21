@@ -1,0 +1,52 @@
+{
+    "name": "rivalex/laravel-intl",
+    "description": "Easy to use internationalization functions for Laravel",
+    "keywords": [
+        "laravel",
+        "internationalization",
+        "intl",
+        "i18n",
+        "l10n"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rivalex",
+            "email": "info@rivalex.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "illuminate/events": "^5.8|^6.0|^7.0",
+        "illuminate/support": "^5.8|^6.0|^7.0",
+        "nesbot/carbon": "^2.0",
+        "commerceguys/intl": "^1.0.5",
+        "umpirsky/country-list": "^2.0",
+        "umpirsky/locale-list": "^1.0",
+        "punic/punic": "^3.5"
+    },
+    "require-dev": {
+        "orchestra/testbench": "*",
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rivalex\\LaravelIntl\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rivalex\\LaravelIntl\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rivalex\\LaravelIntl\\IntlServiceProvider"
+            ]
+        }
+    }
+}
