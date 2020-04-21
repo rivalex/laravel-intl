@@ -9,7 +9,7 @@
 Easy to use internationalization functions for Laravel 7 and Lumen based on various libraries for easy retrieval of
 localized values and formatting of numeric values into their localized patterns.
 
-### This is a fork of Propaganistas/Laravel-Intl Package tha is been archived. Thanks to Propaganistas for grate Work!!!
+### This is a fork of [Propaganistas/Laravel-Intl](https://github.com/Propaganistas/Laravel-Intl) Package tha is been archived. Thanks to [Propaganistas](https://github.com/Propaganistas) for grate Work!!!
 
 ### Overview
 
