@@ -1,7 +1,6 @@
 language: php
 
 php:
-  - 7.2
   - 7.3
 
 cache:
@@ -12,7 +11,7 @@ matrix:
   fast_finish: true
   include:
     - php: 7.3
-      env: ILLUMINATE_VERSION=7.* TESTBENCH_VERSION=4.* PHPUNIT_VERSION=8.*
+    env: LARAVEL_VERSION=~7.0  TESTBENCH_VERSION=~5.0  PHPUNIT_VERSION=~8.0
 
 sudo: false
 
@@ -38,9 +37,16 @@ script:
   # Re-enable XDebug.
   - phpenv config-add /tmp/xdebug.ini
   # Run the tests.
-  - vendor/bin/phpunit --coverage-clover=coverage.clover
+  - vendor/bin/phpunit --coverage-text --coverage-clover build/logs/clover.xml
 
 after_script:
   # Send test results to Scrutinizer.
   - wget https://scrutinizer-ci.com/ocular.phar
   - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
+
+branches:
+  only:
+    - master
+
+notifications:
+  email: false
