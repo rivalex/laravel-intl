@@ -17,17 +17,17 @@
     ],
     "require": {
         "php": ">=7.2",
-        "illuminate/events": "^5.8|^6.0|^7.0",
-        "illuminate/support": "^5.8|^6.0|^7.0",
         "nesbot/carbon": "^2.0",
         "commerceguys/intl": "^1.0.5",
         "umpirsky/country-list": "^2.0",
         "umpirsky/locale-list": "^1.0",
-        "punic/punic": "^3.5"
+        "punic/punic": "^3.5",
+        "illuminate/support": "^7.6",
+        "illuminate/events": "^7.6"
     },
     "require-dev": {
-        "orchestra/testbench": "*",
-        "phpunit/phpunit": "*"
+        "orchestra/testbench": "^5.0",
+        "phpunit/phpunit": "^8.5"
     },
     "autoload": {
         "psr-4": {
