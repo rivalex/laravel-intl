@@ -6,7 +6,7 @@
 [![Total Downloads](https://poser.pugx.org/rivalex/laravel-intl/downloads)](https://packagist.org/packages/rivalex/laravel-intl)
 [![License](https://poser.pugx.org/rivalex/laravel-intl/license)](https://packagist.org/packages/rivalex/laravel-intl)
 
-Easy to use internationalization functions for Laravel 7 and Lumen based on various libraries for easy retrieval of
+Easy to use internationalization functions for Laravel 8 and Lumen based on various libraries for easy retrieval of
 localized values and formatting of numeric values into their localized patterns.
 
 ### This is a fork of [Propaganistas/Laravel-Intl](https://github.com/Propaganistas/Laravel-Intl) Package tha is been archived. Thanks to [Propaganistas](https://github.com/Propaganistas) for grate Work!!!
