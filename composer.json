@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "php": ">=7.2",
+        "php": ">=7.3",
         "nesbot/carbon": "^2.0",
         "commerceguys/intl": "^1.0.5",
         "umpirsky/country-list": "^2.0",
