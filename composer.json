@@ -22,8 +22,8 @@
         "umpirsky/country-list": "^2.0",
         "umpirsky/locale-list": "^1.0",
         "punic/punic": "^3.5",
-        "illuminate/support": "^7.6|^8.0",
-        "illuminate/events": "^7.6|^8.0"
+        "illuminate/support": "^8.0",
+        "illuminate/events": "^8.0"
     },
     "require-dev": {
         "orchestra/testbench": "^5.0",
