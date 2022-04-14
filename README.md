@@ -1,10 +1,6 @@
 # Laravel Intl
 
-[![Build Status](https://scrutinizer-ci.com/g/rivalex/laravel-intl/badges/build.png?b=rivalex)](https://scrutinizer-ci.com/g/rivalex/laravel-intl/build-status/rivalex)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/rivalex/laravel-intl/badges/quality-score.png?b=rivalex)](https://scrutinizer-ci.com/g/rivalex/laravel-intl/?branch=rivalex)
-[![Latest Stable Version](https://poser.pugx.org/rivalex/laravel-intl/v/stable)](https://packagist.org/packages/rivalex/laravel-intl)
-[![Total Downloads](https://poser.pugx.org/rivalex/laravel-intl/downloads)](https://packagist.org/packages/rivalex/laravel-intl)
-[![License](https://poser.pugx.org/rivalex/laravel-intl/license)](https://packagist.org/packages/rivalex/laravel-intl)
+[![Latest Stable Version](http://poser.pugx.org/rivalex/laravel-intl/v)](https://packagist.org/packages/rivalex/laravel-intl) [![Total Downloads](http://poser.pugx.org/rivalex/laravel-intl/downloads)](https://packagist.org/packages/rivalex/laravel-intl) [![Latest Unstable Version](http://poser.pugx.org/rivalex/laravel-intl/v/unstable)](https://packagist.org/packages/rivalex/laravel-intl) [![License](http://poser.pugx.org/rivalex/laravel-intl/license)](https://packagist.org/packages/rivalex/laravel-intl) [![PHP Version Require](http://poser.pugx.org/rivalex/laravel-intl/require/php)](https://packagist.org/packages/rivalex/laravel-intl)
 
 Easy to use internationalization functions for Laravel 8 and Lumen based on various libraries for easy retrieval of
 localized values and formatting of numeric values into their localized patterns.
